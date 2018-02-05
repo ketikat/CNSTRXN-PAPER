@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: __dirname,
     filename: './public/bundle.js',
-    publicPath: '/public/'  
+    publicPath: '/public/'
   },
   devtool: 'source-map',
   resolve: {
@@ -24,7 +24,6 @@ module.exports = {
           }
         },{
           test: /\.css$/,
-          // loaders: ['style', 'css'],
           use:['style-loader','css-loader'],
           include: __dirname
         }, {
@@ -53,4 +52,4 @@ module.exports = {
 
 
 
-      
+

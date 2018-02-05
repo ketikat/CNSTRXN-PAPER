@@ -1,17 +1,16 @@
 import React, {Component} from 'react'
 
-
 export default class WordsContainer extends Component{
 
   constructor(props) {
     super(props)
     this.state =  {
-  	clicked: false
+    clicked: false
     }
     this.clickhandler = this.clickhandler.bind(this)
   }
 
- clickhandler( evt ) {
+ clickhandler() {
     this.setState({clicked: !this.state.clicked})
  }
 
@@ -37,30 +36,28 @@ export default class WordsContainer extends Component{
 		  return stylesArr[Math.floor(Math.random() * stylesArr.length)]
 		}
 
-  	const movement = this.state.clicked? getRandomStyle(stylesArray) : {}
+    const movement = this.state.clicked ? getRandomStyle(stylesArray) : {}
 
-  	const TRANSFORM = this.props.transform? this.props.transform : 'rotate(0)'
-  	const COLOR = this.props.color? this.props.color : '#c5f3d8'
-  	const SHAPE = this.props.shape? this.props.shape : "25.4,13.7 5.7,0 5.7,32 5.7,64 25,51.5 34.4,32 "
+    const TRANSFORM = this.props.transform ? this.props.transform : 'rotate(0)'
+    const COLOR = this.props.color ? this.props.color : '#c5f3d8'
+    const SHAPE = this.props.shape ? this.props.shape : '25.4,13.7 5.7,0 5.7,32 5.7,64 25,51.5 34.4,32 '
 
-  	return(
-
-	 	 	<svg
-	 	 		onClick={this.clickhandler}
-		  	className = 'letter'
-		  	opacity='.8'
-		  	fill={COLOR}>
-		    <polygon style={movement} transform={TRANSFORM} points={SHAPE}/>
-		  </svg>
-
-  		)
-	}
-
-
-
+  return (
+      <svg
+        onClick={this.clickhandler}
+        className="letter"
+        opacity=".8"
+        fill={COLOR}
+      >
+        <polygon
+          style={movement}
+          transform={TRANSFORM}
+          points={SHAPE}
+        />
+      </svg>
+    )
+  }
 }
-
-
 
 
 // <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
@@ -69,9 +66,6 @@ export default class WordsContainer extends Component{
     // <polygon opacity=".8" fill="#a2ecc1" points='30,38.4 15.3,54.9 0,64 14.5,31.5 29,-1.1 31.3,18.9 30,38.4 30,38.4'
     // />
 // </svg>
-
-
-
 
 // const { w, h } = this.props
 

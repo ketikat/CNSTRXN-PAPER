@@ -20,16 +20,13 @@ app.use(express.static(path.join(__dirname, './public')))
 // Send index.html for any other requests
 app.use('*', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'))
-}) 
+})
 
 //error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack)
   res.status(err.status || 500).send(err.message || 'Internal server error')
 })
-
-
-// app.listen(PORT => console.log(`Doo DEE Daa Doo on Port ${PORT}`))
 
 app.listen(PORT, (err) => {
   if (err) {
@@ -38,7 +35,5 @@ app.listen(PORT, (err) => {
   }
   console.log(chalk.magenta(`Doo DEE Daa Doo on Port at http://localhost:${PORT}`))
 })
-
-
 
 module.exports = app

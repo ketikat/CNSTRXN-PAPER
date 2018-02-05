@@ -11,7 +11,9 @@ const INITIAL_STATE = {
         w: 100,
         h: 100
       },
-      color: "#e4f0f9"
+      // color: '#e4f0f9',
+      color: ['#e5f9e4', '#c9f3c6', '#a9eca3', '#84e47b', '#54da48', '#11cc00', '#0fb800', '#0da200', '#0b8600', '#086100'],
+      input: ''
 }
 
 //--ACTION TYPES----------------------------------------------------
@@ -66,8 +68,3 @@ const middleware = applyMiddleware(thunkMiddleware, logger)
 const store = createStore(rootReducer, middleware)
 
 export default store
-
-
-
-
-
