@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import Canvas from './canvas.jsx'
-import {AllSVGs} from './SVGs.jsx'
 import { windowResize } from '../store'
-import ColorNav from './colorNav.jsx'
+import WordsContainer from './WordsContainer'
+import Canvas from './Canvas'
+import WordsForm from './WordsForm'
+import ColorNav from './ColorNav'
 
 require('../styles.css')
 
@@ -13,7 +14,6 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.handleResize = this.handleResize.bind(this)
-    // this.handleColorClick = this.handleColorClick.bind(this)
   }
 
   componentDidMount() {
@@ -33,11 +33,16 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.props.input)
     return (
+    <div>
+          {/* NO OTHER HTML CAN GO INSIDE OF THE CANVAS */}
           <Canvas { ...this.props }>
               <ColorNav { ...this.props } />
-              <AllSVGs { ...this.props } />
+              <WordsContainer { ...this.props } />
           </Canvas>
+        <WordsForm />
+     </div>
     )
   }
 }
@@ -47,10 +52,14 @@ function mapState(state) {
       w: window.innerWidth,
       h: window.innerHeight,
       width: state.windowPROPS.width,
-      height: state.windowPROPS.height
+      height: state.windowPROPS.height,
+      input: state.input
   }
 }
 
 const mapDispatch = {windowResize}
 
 export default connect(mapState, mapDispatch)(App)
+
+
+

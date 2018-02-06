@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { changeColor } from '../store'
-import PaletteMaker  from './colors'
+import PaletteMaker  from './PaletteMaker'
 
 function ColorNav(props){
 

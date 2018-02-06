@@ -1,5 +1,5 @@
-body { 
-  margin: 0; 
+body {
+  margin: 0;
   font-family: 'Roboto Slab', serif;
  }
 
@@ -8,11 +8,11 @@ text{
 }
 
 /*.leter{ animation: scatter 5s ease-in-out infinite;
-  
+
 }*/
 
 
-/*#derps {  
+/*#derps {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@ text{
   width: 100vw;
 }*/
 
-.caps {
+/*.caps {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -40,7 +40,7 @@ text{
   0% { transform: scale(0); }
   50% { transform: scale(1.1); }
   100% { transform: scale(1); }
-}
+}*/
 
 @keyframes scatter1 {
   0% { transform: translate(20px, 35px); }
@@ -60,7 +60,7 @@ text{
   100% { transform: translate(80px, 200px);; }
 }
 
-@keyframes otherBounce {
+/*@keyframes otherBounce {
   0% { transform: scale(0); }
   50% { transform: scale(0.95); }
   100% { transform: scale(0.9); }
@@ -70,8 +70,8 @@ text{
   animation: moveTheWave 2400ms linear infinite;
   stroke-dasharray: 0 16 101 16;
 }
-
-@keyframes moveTheWave {
+*/
+/*@keyframes moveTheWave {
 
   0% {
     stroke-dashoffset: 0;
@@ -96,3 +96,4 @@ text{
   }
 
 }
+*/
