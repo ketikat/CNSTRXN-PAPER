@@ -15,17 +15,17 @@ const INITIAL_STATE = {
       movement: [
                   {
                     animation: 'scatter1 1s',
-                    transformOrigin: '50% 100%',
+                    transformOrigin: '0% 50%',
                     animationDelay: '2ms',
                   },
                   {
                     animation: 'scatter2 2s',
-                    transformOrigin: '50% 100%',
+                    transformOrigin: '0% 50%',
                     animationDelay: '2ms',
                   },
                   {
                     animation: 'scatter3 3s',
-                    transformOrigin: '50% 100%',
+                    transformOrigin: '0% 50%',
                     animationDelay: '2ms',
                   }
      ],

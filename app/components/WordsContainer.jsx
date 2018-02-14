@@ -18,7 +18,10 @@ function SvgWords({input, w, h, width, height, color, movement}) {
   let y =  (0.5 * h)
 
     return(
-      inputArr.map((letter, idx) => {
+
+     <svg height={h} width={w}>
+
+     { inputArr.map((letter, idx) => {
 
 
       let x = ((w - innerWidth) / 2) + (btnWidth * idx) + (idx * spacing)
@@ -43,12 +46,12 @@ function SvgWords({input, w, h, width, height, color, movement}) {
 
 
 })
+
+ }
+  </svg>
 )
-// return (
-//             inputArr.map((letter) => {
-//                   return Alphabet(color, movement, x, "200", "200", "200")[letter]
-//               })
-//           )
+
+
 
 
 }
@@ -66,7 +69,10 @@ class WordsContainer extends Component {
   render () {
     console.log("FINAL HOME RUN", this.props)
     return (
+    <svg height={this.props.h} width={this.props.w}>
           <SvgWords {...this.props} />
+     </svg>
+
     )
   }
 

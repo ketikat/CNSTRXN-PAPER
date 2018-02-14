@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default function Alphabet(color, movement, x, y, width, height, key) {
-
   function randomColor() {
+      console.log("I AM COLOR!!!!!!!!" ,  color)
       return color[Math.floor(Math.random() * color.length)]
   }
 
@@ -14,7 +14,7 @@ export default function Alphabet(color, movement, x, y, width, height, key) {
   return (
       {
         a:(
-        <svg key={key} x={x} y={y} width={width} height={height} viewBox='0 0 64 64' viewBox='0 0 64 64'>
+        <svg key={key} x={x} y={y} width={width} height={height} viewBox='0 0 64 64'>
           <polygon opacity='.8' style={randomMovement()} fill={randomColor()} points='30.4,40.7 40,52 64,63.9 47.2,31.9 30.3,-0.1 28,20 30.4,40.7 30.4,40.7'/>
           <polygon opacity='.8' style={randomMovement()} fill={randomColor()} points='30,38.4 15.3,54.9 0,64 14.5,31.5 29,-1.1 31.3,18.9 30,38.4 30,38.4'/>
         </svg>

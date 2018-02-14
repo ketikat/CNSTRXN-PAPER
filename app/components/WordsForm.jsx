@@ -19,7 +19,7 @@ class WordsForm extends Component {
 
   clickHandler(evt) {
     evt.preventDefault()
-    this.setState({explode: true})
+    this.setState({explode: !this.state.explode})
    }
 
   changeHandler(evt) {

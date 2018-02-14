@@ -2,16 +2,15 @@ import React from 'react'
 
 export default function PaletteMaker (_num) {
   const color = clrBtns[_num]
-  // console.log('color is: ', color)
+  console.log('color is: ', color)
   return clrPalettes[color]
 }
 
-const clrBtns = ['gray', 'blue', 'indigo', 'violet', 'fuchia', 'pink', 'red', 'orange', 'yellow', 'lime', 'green', 'teal', 'cyan' ]
+const clrBtns = ['gray', 'blue', 'indigo', 'violet', 'fuschia', 'pink', 'red', 'orange', 'yellow', 'lime', 'green', 'teal', 'cyan' ]
 
 const clrPalettes = {
 
 gray: [
-'#f8f9f9',
 '#ebedee',
 '#dee1e3',
 '#cfd3d6',
@@ -23,7 +22,6 @@ gray: [
 '#374047'
 ],
 blue: [
-'#e4f0f9',
 '#c6e1f3',
 '#a5cfed',
 '#7db9e5',
@@ -35,7 +33,6 @@ blue: [
 '#00365d'
 ],
 indigo: [
-'#eaebfa',
 '#d2d5f6',
 '#b7bbf0',
 '#959ce9',
@@ -47,7 +44,6 @@ indigo: [
 '#00075c'
 ],
 violet: [
-'#f0e9fa',
 '#e1d2f6',
 '#ceb6f0',
 '#b894e9',
@@ -59,7 +55,6 @@ violet: [
 '#27005e'
 ],
 fuschia: [
-'#f9e9fa',
 '#f2d1f5',
 '#ebb5f0',
 '#e293e9',
@@ -71,7 +66,6 @@ fuschia: [
 '#580061'
 ],
 pink: [
-'#fae9f3',
 '#f5d1e6',
 '#f0b6d8',
 '#e994c6',
@@ -83,7 +77,6 @@ pink: [
 '#610038'
 ],
 red: [
-'#faeaeb',
 '#f6d2d5',
 '#f0b7bc',
 '#ea969d',
@@ -95,7 +88,6 @@ red: [
 '#610008'
 ],
 orange: [
-'#f9ede4',
 '#f3d9c6',
 '#ecc2a4',
 '#e4a87c',
@@ -107,7 +99,6 @@ orange: [
 '#5e2700'
 ],
 yellow: [
-'#f8f6de',
 '#f1ecba',
 '#e9e293',
 '#e0d668',
@@ -119,7 +110,6 @@ yellow: [
 '#615800'
 ],
 lime: [
-'#eef8df',
 '#dcf1bd',
 '#c7ea97',
 '#b1e16c',
@@ -131,7 +121,6 @@ lime: [
 '#386100'
 ],
 green: [
-'#e5f9e4',
 '#c9f3c6',
 '#a9eca3',
 '#84e47b',
@@ -143,7 +132,6 @@ green: [
 '#086100'
 ],
 teal: [
-'#e3f9ec',
 '#c5f3d8',
 '#a2ecc1',
 '#79e4a6',
@@ -155,7 +143,6 @@ teal: [
 '#006128'
 ],
 cyan: [
-'#e3f9f7',
 '#c4f3ef',
 '#a0ece5',
 '#77e3da',
