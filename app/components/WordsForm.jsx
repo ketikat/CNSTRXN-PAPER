@@ -40,7 +40,7 @@ function ExportStyledSVG(props){
     const url = URL.createObjectURL(svg)
 
   return (
-     <a href={url}> click to download your SVG </a>
+     <a href={url} >click to download your SVG</a>
   )
 }
 
@@ -74,7 +74,6 @@ class WordsForm extends Component {
     evt.preventDefault()
     this.setState({showLink:true})
    }
-
 
   changeHandler(evt) {
     this.setState({inputValue: evt.target.value})

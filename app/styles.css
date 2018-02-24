@@ -421,7 +421,7 @@ text{
 .WordsFormContainer{
 /*text-align: center;*/
   display: flex;
-  /*align-content: space-around;*/
+  align-items: center;
   justify-content: space-around;
   margin: 2em;
 }
@@ -435,3 +435,6 @@ input {
   margin: .5em;
 }
 
+a {
+  margin: .5em;
+}
