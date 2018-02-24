@@ -1,9 +1,8 @@
-import { createStore, applyMiddleware, compose } from 'redux'
+import { createStore, applyMiddleware } from 'redux'
 import thunkMiddleware from 'redux-thunk'
 import { createLogger } from 'redux-logger'
 
 //--INTIAL STATE----------------------------------------------------
-
 const INITIAL_STATE = {
       windowPROPS: {
                     width: 100,
@@ -12,32 +11,17 @@ const INITIAL_STATE = {
                     h: 100
       },
       color: ['#e5f9e4', '#c9f3c6', '#a9eca3', '#84e47b', '#54da48', '#11cc00', '#0fb800', '#0da200', '#0b8600', '#086100'],
-      movement: [
-                  {
-                    animation: 'scatter1 1s',
-                    transformOrigin: '0% 50%',
-                    animationDelay: '2ms',
-                  },
-                  {
-                    animation: 'scatter2 2s',
-                    transformOrigin: '0% 50%',
-                    animationDelay: '2ms',
-                  },
-                  {
-                    animation: 'scatter3 3s',
-                    transformOrigin: '0% 50%',
-                    animationDelay: '2ms',
-                  }
-     ],
-     input: 'a'
+      movement: false,
+      input: 'abcd',
+      exportData: {}
 }
 
 //--ACTION TYPES----------------------------------------------------
-
 const WINDOW_RESIZE = 'WINDOW_RESIZE'
 const SET_COLOR = 'SET_COLOR'
 const SET_INPUT = 'SET_INPUT'
-
+const SET_MOVEMENT = 'SET_MOVEMENT'
+const SET_EXPORTDATA = 'SET_EXPORTDATA'
 
 //--ACTION CREATORS----------------------------------------------------
 export function windowResize({ width, height }) {
@@ -53,17 +37,30 @@ export function windowResize({ width, height }) {
 export function changeInput (input){
     return {
       type: SET_INPUT,
-      input: input
+      input
     }
-  }
+}
 
 export function changeColor (color){
     return {
       type: SET_COLOR,
       color
     }
-  }
+}
 
+export function changeMovement (movement){
+    return {
+      type: SET_MOVEMENT,
+      movement
+    }
+}
+
+export function changeExportData (exportData){
+    return {
+      type: SET_EXPORTDATA,
+      exportData: exportData
+    }
+}
 
 
 
@@ -80,6 +77,12 @@ function rootReducer(state = INITIAL_STATE, action) {
 
   case SET_INPUT:
     return Object.assign({}, state,  {input: action.input})
+
+  case SET_MOVEMENT:
+    return Object.assign({}, state,  {movement: action.movement})
+
+  case SET_EXPORTDATA:
+    return Object.assign({}, state,  {exportData: action.exportData})
 
   default:
     return state

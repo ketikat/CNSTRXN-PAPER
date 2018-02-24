@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function PaletteMaker (_num) {
   const color = clrBtns[_num]
-  console.log('color is: ', color)
   return clrPalettes[color]
 }
 
@@ -11,7 +10,6 @@ const clrBtns = ['gray', 'blue', 'indigo', 'violet', 'fuschia', 'pink', 'red', '
 const clrPalettes = {
 
 gray: [
-'#ebedee',
 '#dee1e3',
 '#cfd3d6',
 '#bec4c8',
@@ -22,7 +20,6 @@ gray: [
 '#374047'
 ],
 blue: [
-'#c6e1f3',
 '#a5cfed',
 '#7db9e5',
 '#4a9eda',
@@ -33,7 +30,6 @@ blue: [
 '#00365d'
 ],
 indigo: [
-'#d2d5f6',
 '#b7bbf0',
 '#959ce9',
 '#6872e0',
@@ -44,7 +40,6 @@ indigo: [
 '#00075c'
 ],
 violet: [
-'#e1d2f6',
 '#ceb6f0',
 '#b894e9',
 '#9966e0',
@@ -55,7 +50,6 @@ violet: [
 '#27005e'
 ],
 fuschia: [
-'#f2d1f5',
 '#ebb5f0',
 '#e293e9',
 '#d665e0',
@@ -66,7 +60,6 @@ fuschia: [
 '#580061'
 ],
 pink: [
-'#f5d1e6',
 '#f0b6d8',
 '#e994c6',
 '#e066ad',
@@ -77,7 +70,6 @@ pink: [
 '#610038'
 ],
 red: [
-'#f6d2d5',
 '#f0b7bc',
 '#ea969d',
 '#e16973',
@@ -88,7 +80,6 @@ red: [
 '#610008'
 ],
 orange: [
-'#f3d9c6',
 '#ecc2a4',
 '#e4a87c',
 '#da864a',
@@ -99,7 +90,6 @@ orange: [
 '#5e2700'
 ],
 yellow: [
-'#f1ecba',
 '#e9e293',
 '#e0d668',
 '#d7c938',
@@ -110,7 +100,6 @@ yellow: [
 '#615800'
 ],
 lime: [
-'#dcf1bd',
 '#c7ea97',
 '#b1e16c',
 '#96d73b',
@@ -121,7 +110,6 @@ lime: [
 '#386100'
 ],
 green: [
-'#c9f3c6',
 '#a9eca3',
 '#84e47b',
 '#54da48',
@@ -132,7 +120,6 @@ green: [
 '#086100'
 ],
 teal: [
-'#c5f3d8',
 '#a2ecc1',
 '#79e4a6',
 '#46da84',
@@ -143,7 +130,6 @@ teal: [
 '#006128'
 ],
 cyan: [
-'#c4f3ef',
 '#a0ece5',
 '#77e3da',
 '#44d9cd',

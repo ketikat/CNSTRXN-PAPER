@@ -33,16 +33,17 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.props.input)
+
     return (
-    <div>
+      <div>
           {/* NO OTHER HTML CAN GO INSIDE OF THE CANVAS */}
-          <Canvas { ...this.props }>
-              <ColorNav { ...this.props } />
-              <WordsContainer { ...this.props } />
+          <Canvas className="CanvasContainer"{ ...this.props }>
+            <ColorNav className="ColorNavContainer" {...this.props } />
+            <WordsContainer ref="myExport" { ...this.props } />
           </Canvas>
-        <WordsForm />
-     </div>
+
+          <WordsForm />
+      </div>
     )
   }
 }

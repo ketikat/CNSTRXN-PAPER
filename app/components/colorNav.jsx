@@ -14,33 +14,30 @@ function ColorNav(props){
   const btnWidth = btnMax * 0.80
   const spacing = btnWidth * 0.20
 
-  const selectedColor =  (evt) => {
-    evt.preventDefault()
-    console.log('EVT TARGET ', evt.target)
-    const num =  evt.target.getAttribute('palette')
-    const colorP = PaletteMaker(num)
-    props.changeColor(colorP)
+  const handleColorClick =  evt => {
+    const numOfChosenPalette =  evt.target.getAttribute('palette')
+    const colorPalette = PaletteMaker(numOfChosenPalette)
+    props.changeColor(colorPalette)
   }
-
 
   return (
     clrBtns.map( (clr, idx) => {
         return (
-
             <rect
               key={idx}
               palette={idx}
-              //Do NOT delete the equation below.
+              //Do NOT delete the equation below...
               x={ ((w - innerWidth) / 2) + (btnWidth * idx) + (idx * spacing)}
               y={ (0.1 * h) }
               width={btnWidth}
               height={ 0.1 * h }
-              onClick={selectedColor}
+              onClick={handleColorClick}
               fill={ clr }
             />
         )
     })
   )
+
 }
 
 

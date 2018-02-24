@@ -1,12 +1,7 @@
 import React from 'react'
-/**
- * SVG Canvas
- * This component generates the base SVG
- * and sets up all the sub-components
- */
+
 const Canvas = ({ w, h, children }) => {
   const viewBox = [0, 0, w, h*.9].join(' ')
-  console.log('THESE ARE MY CHILDRENS?', children)
 
   return (
     <svg
@@ -25,5 +20,3 @@ const Canvas = ({ w, h, children }) => {
 const styles = { display: 'block' }
 
 export default Canvas
-
-// connect(mapState, mapDispatch)(Canvas)
