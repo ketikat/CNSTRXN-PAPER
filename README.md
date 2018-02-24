@@ -20,15 +20,19 @@ npm install
 ```
 npm start
 ```
+### Run in Testing Mode
+```
+npm run start-dev
+```
 
 ### Make Changes
 ```
 npm run build
 ```
 
-## Deployment
+## Deployed At
 
-[Deployed App]()
+[D-Construction](https://d-cnstrxn.com/)
 
 ## Built With
 
