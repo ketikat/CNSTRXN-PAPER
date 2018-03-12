@@ -35,12 +35,14 @@ function ExportStyledSVG(props){
     const oDOM = SVGElem.cloneNode(true)
     read_Element(oDOM, SVGElem)
 
+    const winURL = window.URL || window.webkitURL
+
     const data = new XMLSerializer().serializeToString(oDOM)
     const svg = new Blob([data], { type: "image/svg+xml;charset=utf-8" })
-    const url = URL.createObjectURL(svg)
+    const url = winURL.createObjectURL(svg)
 
   return (
-     <a href={url} >click to download your SVG</a>
+     <a href={url}>click to download your SVG</a>
   )
 }
 
@@ -67,7 +69,7 @@ class WordsForm extends Component {
 
     setTimeout( ()=>{
           this.props.changeMovement(false)
-        }, 2010)
+        }, 1000)
    }
 
    clickExport(evt) {

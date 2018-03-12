@@ -4,7 +4,6 @@ import Alphabet  from './Alphabet'
 import ReactDOM from 'react-dom'
 import {changeExportData} from '../store'
 
-
 function SvgWords({input, w, h, width, height, color, movement}) {
 
   const newW  = w * 0.8
@@ -52,10 +51,10 @@ class WordsContainer extends Component {
     super(props)
   }
 
-
    componentDidUpdate() {
     const toExport = ReactDOM.findDOMNode(this)
     this.props.changeExportData(toExport)
+
  }
 
   render () {

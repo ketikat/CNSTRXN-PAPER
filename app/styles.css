@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: 'Roboto Slab', serif;
@@ -7,425 +9,19 @@ text{
   font-family: 'Roboto Slab', serif;
 }
 
-@keyframes animation0 {
-  0% {transform: translate(4px, 27px) rotate(-19deg)}
-  20% {transform: translate(13px, 48px) rotate(0deg)}
-  40% {transform: translate(17px, 51px) rotate(0deg)}
-  60% {transform: translate(25px, 52px) rotate(-11deg)}
-  80% {transform: translate(50px, 64px) rotate(19deg)}
-  100% {transform: translate(65px, 87px) rotate(-6deg)}
+#info{
+  text-align: center;
+  margin: 1em;
 }
-@keyframes animation1 {
-  0% {transform: translate(14px, 27px) rotate(-4deg)}
-  20% {transform: translate(27px, 52px) rotate(-5deg)}
-  40% {transform: translate(56px, 75px) rotate(-2deg)}
-  60% {transform: translate(79px, 88px) rotate(3deg)}
-  80% {transform: translate(103px, 101px) rotate(6deg)}
-  100% {transform: translate(113px, 120px) rotate(-3deg)}
-}
-@keyframes animation2 {
-  0% {transform: translate(27px, 15px) rotate(0deg)}
-  20% {transform: translate(45px, 22px) rotate(-8deg)}
-  40% {transform: translate(55px, 46px) rotate(-3deg)}
-  60% {transform: translate(58px, 65px) rotate(-1deg)}
-  80% {transform: translate(70px, 78px) rotate(7deg)}
-  100% {transform: translate(89px, 81px) rotate(-8deg)}
-}
-@keyframes animation3 {
-  0% {transform: translate(6px, 6px) rotate(-4deg)}
-  20% {transform: translate(27px, 25px) rotate(4deg)}
-  40% {transform: translate(54px, 33px) rotate(-3deg)}
-  60% {transform: translate(74px, 48px) rotate(0deg)}
-  80% {transform: translate(91px, 76px) rotate(-9deg)}
-  100% {transform: translate(96px, 98px) rotate(4deg)}
-}
-@keyframes animation4 {
-  0% {transform: translate(27px, 19px) rotate(-10deg)}
-  20% {transform: translate(43px, 21px) rotate(7deg)}
-  40% {transform: translate(55px, 36px) rotate(-1deg)}
-  60% {transform: translate(55px, 59px) rotate(-7deg)}
-  80% {transform: translate(60px, 64px) rotate(-2deg)}
-  100% {transform: translate(75px, 70px) rotate(4deg)}
-  }
-@keyframes animation5 {
-  0% {transform: translate(13px, 4px) rotate(-10deg)}
-  20% {transform: translate(22px, 12px) rotate(-3deg)}
-  40% {transform: translate(43px, 12px) rotate(6deg)}
-  60% {transform: translate(62px, 16px) rotate(7deg)}
-  80% {transform: translate(64px, 39px) rotate(6deg)}
-  100% {transform: translate(67px, 42px) rotate(3deg)}
-  }
-@keyframes animation6 {
-  0% {transform: translate(0px, 17px) rotate(-7deg)}
-  20% {transform: translate(19px, 30px) rotate(-6deg)}
-  40% {transform: translate(32px, 39px) rotate(-2deg)}
-  60% {transform: translate(33px, 43px) rotate(-1deg)}
-  80% {transform: translate(43px, 45px) rotate(0deg)}
-  100% {transform: translate(55px, 64px) rotate(-10deg)}
-  }
-@keyframes animation7 {
-  0% {transform: translate(16px, 0px) rotate(9deg)}
-  20% {transform: translate(23px, 29px) rotate(-8deg)}
-  40% {transform: translate(34px, 53px) rotate(7deg)}
-  60% {transform: translate(39px, 57px) rotate(-8deg)}
-  80% {transform: translate(48px, 77px) rotate(6deg)}
-  100% {transform: translate(73px, 91px) rotate(9deg)}
-  }
-@keyframes animation8 {
-  0% {transform: translate(23px, 1px) rotate(-4deg)}
-  20% {transform: translate(32px, 14px) rotate(7deg)}
-  40% {transform: translate(51px, 22px) rotate(-5deg)}
-  60% {transform: translate(77px, 34px) rotate(8deg)}
-  80% {transform: translate(98px, 59px) rotate(0deg)}
-  100% {transform: translate(98px, 79px) rotate(-9deg)}
-  }
-@keyframes animation9 {
-  0% {transform: translate(16px, 25px) rotate(-5deg)}
-  20% {transform: translate(32px, 45px) rotate(-1deg)}
-  40% {transform: translate(56px, 50px) rotate(-9deg)}
-  60% {transform: translate(80px, 50px) rotate(0deg)}
-  80% {transform: translate(98px, 63px) rotate(-1deg)}
-  100% {transform: translate(105px, 92px) rotate(7deg)}
-  }
-@keyframes animation10 {
-  0% {transform: translate(27px, 16px) rotate(-10deg)}
-  20% {transform: translate(43px, 45px) rotate(-8deg)}
-  40% {transform: translate(58px, 59px) rotate(7deg)}
-  60% {transform: translate(70px, 80px) rotate(-4deg)}
-  80% {transform: translate(74px, 93px) rotate(-10deg)}
-  100% {transform: translate(87px, 114px) rotate(-9deg)}
-  }
-@keyframes animation11 {
-  0% {transform: translate(18px, 23px) rotate(-1deg)}
-  20% {transform: translate(46px, 34px) rotate(-6deg)}
-  40% {transform: translate(46px, 41px) rotate(1deg)}
-  60% {transform: translate(67px, 61px) rotate(8deg)}
-  80% {transform: translate(74px, 84px) rotate(-4deg)}
-  100% {transform: translate(74px, 90px) rotate(9deg)}
-  }
-@keyframes animation12 {
-  0% {transform: translate(18px, 3px) rotate(-10deg)}
-  20% {transform: translate(28px, 15px) rotate(3deg)}
-  40% {transform: translate(32px, 16px) rotate(-6deg)}
-  60% {transform: translate(47px, 20px) rotate(-7deg)}
-  80% {transform: translate(67px, 30px) rotate(-1deg)}
-  100% {transform: translate(90px, 57px) rotate(2deg)}
-  }
-@keyframes animation13 {
-  0% {transform: translate(20px, 8px) rotate(1deg)}
-  20% {transform: translate(44px, 9px) rotate(-2deg)}
-  40% {transform: translate(50px, 31px) rotate(0deg)}
-  60% {transform: translate(74px, 32px) rotate(8deg)}
-  80% {transform: translate(94px, 53px) rotate(4deg)}
-  100% {transform: translate(95px, 66px) rotate(5deg)}
-  }
-@keyframes animation14 {
-  0% {transform: translate(25px, 14px) rotate(-3deg)}
-  20% {transform: translate(40px, 28px) rotate(-1deg)}
-  40% {transform: translate(54px, 34px) rotate(-1deg)}
-  60% {transform: translate(68px, 43px) rotate(-3deg)}
-  80% {transform: translate(85px, 52px) rotate(4deg)}
-  100% {transform: translate(114px, 67px) rotate(-5deg)}
-  }
-@keyframes animation15 {
-  0% {transform: translate(25px, 24px) rotate(4deg)}
-  20% {transform: translate(32px, 27px) rotate(-2deg)}
-  40% {transform: translate(34px, 31px) rotate(-9deg)}
-  60% {transform: translate(55px, 42px) rotate(8deg)}
-  80% {transform: translate(73px, 59px) rotate(5deg)}
-  100% {transform: translate(80px, 86px) rotate(9deg)}
-  }
-@keyframes animation16 {
-  0% {transform: translate(4px, 9px) rotate(5deg)}
-  20% {transform: translate(8px, 36px) rotate(0deg)}
-  40% {transform: translate(15px, 42px) rotate(8deg)}
-  60% {transform: translate(39px, 57px) rotate(-9deg)}
-  80% {transform: translate(42px, 83px) rotate(6deg)}
-  100% {transform: translate(71px, 106px) rotate(-1deg)}
-  }
-@keyframes animation17 {
-  0% {transform: translate(24px, 29px) rotate(-1deg)}
-  20% {transform: translate(50px, 55px) rotate(-9deg)}
-  40% {transform: translate(78px, 78px) rotate(8deg)}
-  60% {transform: translate(81px, 87px) rotate(5deg)}
-  80% {transform: translate(94px, 101px) rotate(-2deg)}
-  100% {transform: translate(97px, 113px) rotate(0deg)}
-  }
-@keyframes animation18 {
-  0% {transform: translate(8px, 1px) rotate(-6deg)}
-  20% {transform: translate(15px, 13px) rotate(0deg)}
-  40% {transform: translate(34px, 35px) rotate(6deg)}
-  60% {transform: translate(57px, 36px) rotate(-4deg)}
-  80% {transform: translate(67px, 54px) rotate(-4deg)}
-  100% {transform: translate(92px, 58px) rotate(2deg)}
-  }
-@keyframes animation19 {
-  0% {transform: translate(11px, 19px) rotate(6deg)}
-  20% {transform: translate(26px, 26px) rotate(-7deg)}
-  40% {transform: translate(37px, 53px) rotate(-3deg)}
-  60% {transform: translate(52px, 75px) rotate(-1deg)}
-  80% {transform: translate(55px, 104px) rotate(-10deg)}
-  100% {transform: translate(65px, 109px) rotate(-6deg)}
-  }
-@keyframes animation20 {
-  0% {transform: translate(2px, 28px) rotate(8deg)}
-  20% {transform: translate(17px, 46px) rotate(-2deg)}
-  40% {transform: translate(35px, 67px) rotate(-1deg)}
-  60% {transform: translate(39px, 70px) rotate(1deg)}
-  80% {transform: translate(46px, 89px) rotate(5deg)}
-  100% {transform: translate(67px, 106px) rotate(6deg)}
-  }
-  @keyframes animation21 {
-  0% {transform: translate(-13px, 5px) rotate(-3deg)}
-  20% {transform: translate(-32px, 27px) rotate(-2deg)}
-  40% {transform: translate(-51px, 40px) rotate(5deg)}
-  60% {transform: translate(-76px, 56px) rotate(-8deg)}
-  80% {transform: translate(-88px, 75px) rotate(0deg)}
-  100% {transform: translate(-117px, 104px) rotate(-2deg)}
-  }
-@keyframes animation22 {
-  0% {transform: translate(-22px, 20px) rotate(-8deg)}
-  20% {transform: translate(-40px, 43px) rotate(-8deg)}
-  40% {transform: translate(-54px, 65px) rotate(0deg)}
-  60% {transform: translate(-82px, 68px) rotate(-9deg)}
-  80% {transform: translate(-101px, 78px) rotate(4deg)}
-  100% {transform: translate(-106px, 101px) rotate(9deg)}
-  }
-@keyframes animation23 {
-  0% {transform: translate(-3px, 15px) rotate(-4deg)}
-  20% {transform: translate(-27px, 26px) rotate(3deg)}
-  40% {transform: translate(-45px, 27px) rotate(2deg)}
-  60% {transform: translate(-56px, 30px) rotate(2deg)}
-  80% {transform: translate(-69px, 37px) rotate(3deg)}
-  100% {transform: translate(-69px, 62px) rotate(8deg)}
-  }
-@keyframes animation24 {
-  0% {transform: translate(-23px, 17px) rotate(2deg)}
-  20% {transform: translate(-49px, 40px) rotate(-10deg)}
-  40% {transform: translate(-61px, 64px) rotate(9deg)}
-  60% {transform: translate(-83px, 78px) rotate(-3deg)}
-  80% {transform: translate(-96px, 107px) rotate(-3deg)}
-  100% {transform: translate(-101px, 129px) rotate(-8deg)}
-  }
-@keyframes animation25 {
-  0% {transform: translate(-1px, 19px) rotate(-5deg)}
-  20% {transform: translate(-22px, 37px) rotate(-6deg)}
-  40% {transform: translate(-26px, 54px) rotate(-4deg)}
-  60% {transform: translate(-51px, 67px) rotate(8deg)}
-  80% {transform: translate(-58px, 92px) rotate(0deg)}
-  100% {transform: translate(-68px, 108px) rotate(-2deg)}
-  }
-@keyframes animation26 {
-  0% {transform: translate(-0px, 15px) rotate(-5deg)}
-  20% {transform: translate(-18px, 15px) rotate(9deg)}
-  40% {transform: translate(-26px, 22px) rotate(4deg)}
-  60% {transform: translate(-36px, 39px) rotate(-9deg)}
-  80% {transform: translate(-40px, 50px) rotate(-3deg)}
-  100% {transform: translate(-59px, 71px) rotate(-10deg)}
-  }
-@keyframes animation27 {
-  0% {transform: translate(-9px, 16px) rotate(9deg)}
-  20% {transform: translate(-25px, 45px) rotate(3deg)}
-  40% {transform: translate(-27px, 71px) rotate(-6deg)}
-  60% {transform: translate(-37px, 81px) rotate(-10deg)}
-  80% {transform: translate(-38px, 103px) rotate(3deg)}
-  100% {transform: translate(-48px, 105px) rotate(-4deg)}
-  }
-@keyframes animation28 {
-  0% {transform: translate(-25px, 7px) rotate(7deg)}
-  20% {transform: translate(-43px, 12px) rotate(-1deg)}
-  40% {transform: translate(-51px, 19px) rotate(3deg)}
-  60% {transform: translate(-66px, 37px) rotate(-2deg)}
-  80% {transform: translate(-69px, 43px) rotate(-10deg)}
-  100% {transform: translate(-72px, 69px) rotate(0deg)}
-  }
-@keyframes animation29 {
-  0% {transform: translate(-19px, 6px) rotate(0deg)}
-  20% {transform: translate(-22px, 22px) rotate(0deg)}
-  40% {transform: translate(-42px, 48px) rotate(-1deg)}
-  60% {transform: translate(-42px, 60px) rotate(9deg)}
-  80% {transform: translate(-54px, 73px) rotate(0deg)}
-  100% {transform: translate(-68px, 81px) rotate(-6deg)}
-  }
-@keyframes animation30 {
-  0% {transform: translate(-9px, 26px) rotate(6deg)}
-  20% {transform: translate(-10px, 33px) rotate(0deg)}
-  40% {transform: translate(-32px, 56px) rotate(-10deg)}
-  60% {transform: translate(-51px, 58px) rotate(-5deg)}
-  80% {transform: translate(-62px, 82px) rotate(-6deg)}
-  100% {transform: translate(-90px, 104px) rotate(9deg)}
-  }
-  @keyframes animation31 {
-  0% {transform: translate(-12px, -11px) rotate(-3deg)}
-  20% {transform: translate(-28px, -40px) rotate(-9deg)}
-  40% {transform: translate(-37px, -69px) rotate(4deg)}
-  60% {transform: translate(-63px, -77px) rotate(-1deg)}
-  80% {transform: translate(-84px, -79px) rotate(-1deg)}
-  100% {transform: translate(-109px, -85px) rotate(-4deg)}
-  }
-@keyframes animation32 {
-  0% {transform: translate(-10px, -26px) rotate(-2deg)}
-  20% {transform: translate(-39px, -37px) rotate(-9deg)}
-  40% {transform: translate(-67px, -42px) rotate(7deg)}
-  60% {transform: translate(-71px, -71px) rotate(7deg)}
-  80% {transform: translate(-77px, -77px) rotate(5deg)}
-  100% {transform: translate(-105px, -77px) rotate(8deg)}
-  }
-@keyframes animation33 {
-  0% {transform: translate(-21px, -29px) rotate(7deg)}
-  20% {transform: translate(-30px, -47px) rotate(-3deg)}
-  40% {transform: translate(-51px, -74px) rotate(1deg)}
-  60% {transform: translate(-67px, -81px) rotate(2deg)}
-  80% {transform: translate(-96px, -85px) rotate(-4deg)}
-  100% {transform: translate(-107px, -108px) rotate(-2deg)}
-  }
-@keyframes animation34 {
-  0% {transform: translate(-28px, -0px) rotate(8deg)}
-  20% {transform: translate(-37px, -22px) rotate(-2deg)}
-  40% {transform: translate(-37px, -30px) rotate(-6deg)}
-  60% {transform: translate(-52px, -32px) rotate(-1deg)}
-  80% {transform: translate(-77px, -43px) rotate(-3deg)}
-  100% {transform: translate(-81px, -62px) rotate(8deg)}
-  }
-@keyframes animation35 {
-  0% {transform: translate(-25px, -4px) rotate(1deg)}
-  20% {transform: translate(-48px, -33px) rotate(5deg)}
-  40% {transform: translate(-70px, -62px) rotate(-5deg)}
-  60% {transform: translate(-90px, -79px) rotate(8deg)}
-  80% {transform: translate(-109px, -107px) rotate(1deg)}
-  100% {transform: translate(-116px, -126px) rotate(0deg)}
-  }
-@keyframes animation36 {
-  0% {transform: translate(-8px, -4px) rotate(-3deg)}
-  20% {transform: translate(-23px, -15px) rotate(-1deg)}
-  40% {transform: translate(-27px, -28px) rotate(8deg)}
-  60% {transform: translate(-27px, -56px) rotate(-6deg)}
-  80% {transform: translate(-49px, -78px) rotate(9deg)}
-  100% {transform: translate(-63px, -81px) rotate(-5deg)}
-  }
-@keyframes animation37 {
-  0% {transform: translate(-1px, -9px) rotate(2deg)}
-  20% {transform: translate(-29px, -29px) rotate(-4deg)}
-  40% {transform: translate(-50px, -40px) rotate(4deg)}
-  60% {transform: translate(-58px, -62px) rotate(-3deg)}
-  80% {transform: translate(-84px, -81px) rotate(-10deg)}
-  100% {transform: translate(-100px, -81px) rotate(8deg)}
-  }
-@keyframes animation38 {
-  0% {transform: translate(-21px, -16px) rotate(-6deg)}
-  20% {transform: translate(-27px, -20px) rotate(-10deg)}
-  40% {transform: translate(-43px, -20px) rotate(-5deg)}
-  60% {transform: translate(-52px, -38px) rotate(-9deg)}
-  80% {transform: translate(-73px, -58px) rotate(-1deg)}
-  100% {transform: translate(-81px, -68px) rotate(1deg)}
-  }
-@keyframes animation39 {
-  0% {transform: translate(-27px, -19px) rotate(-6deg)}
-  20% {transform: translate(-40px, -46px) rotate(1deg)}
-  40% {transform: translate(-44px, -64px) rotate(-1deg)}
-  60% {transform: translate(-64px, -85px) rotate(-9deg)}
-  80% {transform: translate(-71px, -113px) rotate(-7deg)}
-  100% {transform: translate(-72px, -119px) rotate(-7deg)}
-  }
-@keyframes animation40 {
-  0% {transform: translate(-15px, -7px) rotate(6deg)}
-  20% {transform: translate(-30px, -16px) rotate(6deg)}
-  40% {transform: translate(-51px, -29px) rotate(0deg)}
-  60% {transform: translate(-76px, -38px) rotate(-1deg)}
-  80% {transform: translate(-93px, -66px) rotate(-10deg)}
-  100% {transform: translate(-122px, -83px) rotate(-4deg)}
-  }
-  @keyframes animation41 {
-  0% {transform: translate(6px, -6px) rotate(5deg)}
-  20% {transform: translate(21px, -23px) rotate(6deg)}
-  40% {transform: translate(21px, -43px) rotate(-5deg)}
-  60% {transform: translate(34px, -43px) rotate(7deg)}
-  80% {transform: translate(58px, -61px) rotate(0deg)}
-  100% {transform: translate(63px, -88px) rotate(8deg)}
-  }
-@keyframes animation42 {
-  0% {transform: translate(19px, -16px) rotate(-3deg)}
-  20% {transform: translate(43px, -37px) rotate(7deg)}
-  40% {transform: translate(65px, -57px) rotate(6deg)}
-  60% {transform: translate(68px, -67px) rotate(3deg)}
-  80% {transform: translate(75px, -79px) rotate(5deg)}
-  100% {transform: translate(92px, -80px) rotate(9deg)}
-  }
-@keyframes animation43 {
-  0% {transform: translate(29px, -26px) rotate(-7deg)}
-  20% {transform: translate(36px, -40px) rotate(-3deg)}
-  40% {transform: translate(53px, -52px) rotate(0deg)}
-  60% {transform: translate(54px, -57px) rotate(0deg)}
-  80% {transform: translate(73px, -76px) rotate(-7deg)}
-  100% {transform: translate(97px, -90px) rotate(-7deg)}
-  }
-@keyframes animation44 {
-  0% {transform: translate(28px, -18px) rotate(-10deg)}
-  20% {transform: translate(56px, -39px) rotate(4deg)}
-  40% {transform: translate(74px, -62px) rotate(-1deg)}
-  60% {transform: translate(81px, -74px) rotate(-6deg)}
-  80% {transform: translate(83px, -74px) rotate(-7deg)}
-  100% {transform: translate(96px, -78px) rotate(4deg)}
-  }
-@keyframes animation45 {
-  0% {transform: translate(4px, -24px) rotate(2deg)}
-  20% {transform: translate(15px, -40px) rotate(-4deg)}
-  40% {transform: translate(15px, -63px) rotate(6deg)}
-  60% {transform: translate(33px, -82px) rotate(-2deg)}
-  80% {transform: translate(41px, -101px) rotate(8deg)}
-  100% {transform: translate(67px, -115px) rotate(7deg)}
-  }
-@keyframes animation46 {
-  0% {transform: translate(11px, -7px) rotate(7deg)}
-  20% {transform: translate(20px, -14px) rotate(3deg)}
-  40% {transform: translate(23px, -16px) rotate(-7deg)}
-  60% {transform: translate(28px, -36px) rotate(-1deg)}
-  80% {transform: translate(49px, -40px) rotate(2deg)}
-  100% {transform: translate(62px, -41px) rotate(9deg)}
-  }
-@keyframes animation47 {
-  0% {transform: translate(25px, -28px) rotate(-5deg)}
-  20% {transform: translate(44px, -51px) rotate(-6deg)}
-  40% {transform: translate(52px, -75px) rotate(7deg)}
-  60% {transform: translate(56px, -92px) rotate(-6deg)}
-  80% {transform: translate(82px, -113px) rotate(9deg)}
-  100% {transform: translate(95px, -113px) rotate(-6deg)}
-  }
-@keyframes animation48 {
-  0% {transform: translate(16px, -22px) rotate(8deg)}
-  20% {transform: translate(27px, -37px) rotate(0deg)}
-  40% {transform: translate(53px, -53px) rotate(8deg)}
-  60% {transform: translate(55px, -80px) rotate(-5deg)}
-  80% {transform: translate(64px, -100px) rotate(8deg)}
-  100% {transform: translate(64px, -107px) rotate(-8deg)}
-  }
-@keyframes animation49 {
-  0% {transform: translate(29px, -4px) rotate(1deg)}
-  20% {transform: translate(35px, -26px) rotate(0deg)}
-  40% {transform: translate(48px, -35px) rotate(4deg)}
-  60% {transform: translate(68px, -51px) rotate(-7deg)}
-  80% {transform: translate(92px, -63px) rotate(8deg)}
-  100% {transform: translate(99px, -63px) rotate(3deg)}
-  }
-@keyframes animation50 {
-  0% {transform: translate(1px, -15px) rotate(-3deg)}
-  20% {transform: translate(26px, -35px) rotate(-3deg)}
-  40% {transform: translate(33px, -40px) rotate(-4deg)}
-  60% {transform: translate(57px, -53px) rotate(1deg)}
-  80% {transform: translate(59px, -68px) rotate(-1deg)}
-  100% {transform: translate(68px, -94px) rotate(0deg)}
-  }
-
-
 
 .WordsFormContainer{
-/*text-align: center;*/
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 2em;
+  position: relative;
+  top: -5em;
 }
-
 
 button {
   margin: .5em;
@@ -438,3 +34,831 @@ input {
 a {
   margin: .5em;
 }
+
+canvas{
+  -webkit-backface-visibility: hidden;
+  border: 0;
+  margin: 0;
+}
+/*@-webkit-keyframes*/
+
+/*THIS IS FOR GOOGLE*/
+@keyframes animation0 {
+  10% {transform: translate(4px, 27px) rotate(-19deg) translateZ(0)}
+  30% {transform: translate(13px, 48px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {transform: translate(17px, 51px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {transform: translate(25px, 52px) rotate(-11deg) translateZ(0) scale(.6)}
+  90% {transform: translate(50px, 64px) rotate(19deg) translateZ(0) scale(.4)}
+  100% {transform: translate(65px, 87px) rotate(-6deg) translateZ(0) scale(.1)}
+}
+@keyframes animation1 {
+  10% {transform: translate(14px, 27px) rotate(-4deg) translateZ(0)}
+  30% {transform: translate(27px, 52px) rotate(-5deg) translateZ(0) scale(.9)}
+  40% {transform: translate(56px, 75px) rotate(-2deg) translateZ(0) scale(.8)}
+  60% {transform: translate(79px, 88px) rotate(3deg) translateZ(0) scale(.6)}
+  90% {transform: translate(103px, 101px) rotate(6deg) translateZ(0) scale(.4)}
+  100%{transform: translate(113px, 120px) rotate(-3deg) translateZ(0) scale(.1)}
+}
+@keyframes animation2 {
+  10% {transform: translate(27px, 15px) rotate(0deg) translateZ(0)}
+  30% {transform: translate(45px, 22px) rotate(-8deg) translateZ(0) scale(.9)}
+  40% {transform: translate(55px, 46px) rotate(-3deg) translateZ(0) scale(.8)}
+  60% {transform: translate(58px, 65px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(70px, 78px) rotate(7deg) translateZ(0) scale(.4)}
+  100% {transform: translate(89px, 81px) rotate(-8deg) translateZ(0) scale(.1)}
+}
+@keyframes animation3 {
+  10% {transform: translate(6px, 6px) rotate(-4deg) translateZ(0)}
+  30% {transform: translate(27px, 25px) rotate(4deg) translateZ(0) scale(.9)}
+  40% {transform: translate(54px, 33px) rotate(-3deg) translateZ(0) scale(.8)}
+  60% {transform: translate(74px, 48px) rotate(0deg) translateZ(0) scale(.6)}
+  90% {transform: translate(91px, 76px) rotate(-9deg) translateZ(0) scale(.4)}
+  100% {transform: translate(96px, 98px) rotate(4deg) translateZ(0) scale(.1)}
+}
+@keyframes animation4 {
+  10% {transform: translate(27px, 19px) rotate(-10deg) translateZ(0)}
+  30% {transform: translate(43px, 21px) rotate(7deg) translateZ(0) scale(.9)}
+  40% {transform: translate(55px, 36px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(55px, 59px) rotate(-7deg) translateZ(0) scale(.6)}
+  90% {transform: translate(60px, 64px) rotate(-2deg) translateZ(0) scale(.4)}
+  100% {transform: translate(75px, 70px) rotate(4deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation5 {
+  10% {transform: translate(13px, 4px) rotate(-10deg) translateZ(0)}
+  30% {transform: translate(22px, 12px) rotate(-3deg) translateZ(0)}
+  40% {transform: translate(43px, 12px) rotate(6deg) translateZ(0)}
+  60% {transform: translate(62px, 16px) rotate(7deg) translateZ(0)}
+  90% {transform: translate(64px, 39px) rotate(6deg) translateZ(0)}
+  100% {transform: translate(67px, 42px) rotate(3deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation6 {
+  10% {transform: translate(0px, 17px) rotate(-7deg) translateZ(0)}
+  30% {transform: translate(19px, 30px) rotate(-6deg) translateZ(0)scale(.9)}
+  40% {transform: translate(32px, 39px) rotate(-2deg) translateZ(0)scale(.8)}
+  60% {transform: translate(33px, 43px) rotate(-1deg) translateZ(0)scale(.6)}
+  90% {transform: translate(43px, 45px) rotate(0deg) translateZ(0)scale(.4)}
+  100% {transform: translate(55px, 64px) rotate(-10deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation7 {
+  10% {transform: translate(16px, 0px) rotate(9deg) translateZ(0)}
+  30% {transform: translate(23px, 29px) rotate(-8deg) translateZ(0)scale(.9)}
+  40% {transform: translate(34px, 53px) rotate(7deg) translateZ(0)scale(.8)}
+  60% {transform: translate(39px, 57px) rotate(-8deg) translateZ(0)scale(.6)}
+  90% {transform: translate(48px, 77px) rotate(6deg) translateZ(0)scale(.4)}
+  100% {transform: translate(73px, 91px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation8 {
+  10% {transform: translate(23px, 1px) rotate(-4deg) translateZ(0)}
+  30% {transform: translate(32px, 14px) rotate(7deg) translateZ(0)scale(.9)}
+  40% {transform: translate(51px, 22px) rotate(-5deg) translateZ(0)scale(.8)}
+  60% {transform: translate(77px, 34px) rotate(8deg) translateZ(0)scale(.6)}
+  90% {transform: translate(98px, 59px) rotate(0deg) translateZ(0)scale(.4)}
+  100% {transform: translate(98px, 79px) rotate(-9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation9 {
+  10% {transform: translate(16px, 25px) rotate(-5deg) translateZ(0)}
+  30% {transform: translate(32px, 45px) rotate(-1deg) translateZ(0) scale(.9)}
+  40% {transform: translate(56px, 50px) rotate(-9deg) translateZ(0) scale(.8)}
+  60% {transform: translate(80px, 50px) rotate(0deg) translateZ(0) scale(.6)}
+  90% {transform: translate(98px, 63px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {transform: translate(105px, 92px) rotate(7deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation10 {
+  10% {transform: translate(27px, 16px) rotate(-10deg) translateZ(0)}
+  30% {transform: translate(43px, 45px) rotate(-8deg) translateZ(0) scale(.1)}
+  40% {transform: translate(58px, 59px) rotate(7deg) translateZ(0) scale(.1)}
+  60% {transform: translate(70px, 80px) rotate(-4deg) translateZ(0) scale(.1)}
+  90% {transform: translate(74px, 93px) rotate(-10deg) translateZ(0) scale(.4)}
+  100%{transform: translate(87px, 114px) rotate(-9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation11 {
+  10% {transform: translate(18px, 23px) rotate(-1deg) translateZ(0)}
+  30% {transform: translate(46px, 34px) rotate(-6deg) translateZ(0) scale(.9)}
+  40% {transform: translate(46px, 41px) rotate(1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(67px, 61px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {transform: translate(74px, 84px) rotate(-4deg) translateZ(0) scale(.4)}
+  100% {transform: translate(74px, 90px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation12 {
+  10% {transform: translate(18px, 3px) rotate(-10deg) translateZ(0)}
+  30% {transform: translate(28px, 15px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {transform: translate(32px, 16px) rotate(-6deg) translateZ(0) scale(.8)}
+  60% {transform: translate(47px, 20px) rotate(-7deg) translateZ(0) scale(.6)}
+  90% {transform: translate(67px, 30px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {transform: translate(90px, 57px) rotate(2deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation13 {
+  10% {transform: translate(20px, 8px) rotate(1deg) translateZ(0)}
+  30% {transform: translate(44px, 9px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {transform: translate(23px, 31px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {transform: translate(74px, 32px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {transform: translate(94px, 53px) rotate(4deg) translateZ(0) scale(.4)}
+  100% {transform: translate(95px, 66px) rotate(5deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation14 {
+  10% {transform: translate(25px, 14px) rotate(-3deg) translateZ(0)}
+  30% {transform: translate(40px, 28px) rotate(-1deg) translateZ(0)}
+  40% {transform: translate(54px, 34px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(68px, 43px) rotate(-3deg) translateZ(0) scale(.6)}
+  90% {transform: translate(85px, 52px) rotate(4deg) translateZ(0) scale(.4)}
+  100% {transform: translate(114px, 67px) rotate(-5deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation15 {
+  10% {transform: translate(25px, 24px) rotate(4deg) translateZ(0)}
+  30% {transform: translate(32px, 27px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {transform: translate(34px, 31px) rotate(-9deg) translateZ(0) scale(.8)}
+  60% {transform: translate(55px, 42px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {transform: translate(73px, 59px) rotate(5deg) translateZ(0) scale(.4)}
+  100% {transform: translate(80px, 86px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation16 {
+  10% {transform: translate(4px, 9px) rotate(5deg) translateZ(0)}
+  30% {transform: translate(8px, 36px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {transform: translate(15px, 42px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {transform: translate(39px, 57px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {transform: translate(42px, 83px) rotate(6deg) translateZ(0) scale(.4)}
+  100% {transform: translate(71px, 106px) rotate(-1deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation17 {
+  10% {transform: translate(24px, 29px) rotate(-1deg) translateZ(0)}
+  30% {transform: translate(50px, 55px) rotate(-9deg) translateZ(0) scale(.9)}
+  40% {transform: translate(78px, 78px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {transform: translate(81px, 87px) rotate(5deg) translateZ(0) scale(.6)}
+  90% {transform: translate(94px, 101px) rotate(-2deg) translateZ(0) scale(.4)}
+  100%{transform: translate(97px, 113px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation18 {
+  10% {transform: translate(8px, 1px) rotate(-6deg) translateZ(0)}
+  30% {transform: translate(15px, 13px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {transform: translate(34px, 35px) rotate(6deg) translateZ(0) scale(.8)}
+  60% {transform: translate(57px, 36px) rotate(-4deg) translateZ(0) scale(.6)}
+  90% {transform: translate(67px, 54px) rotate(-4deg) translateZ(0) scale(.4)}
+  100% {transform: translate(92px, 58px) rotate(2deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation19 {
+  10% {transform: translate(11px, 19px) rotate(6deg) translateZ(0)}
+  30% {transform: translate(26px, 26px) rotate(-7deg) translateZ(0) scale(.9)}
+  40% {transform: translate(37px, 53px) rotate(-3deg) translateZ(0) scale(.8)}
+  60% {transform: translate(52px, 75px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(55px, 104px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {transform: translate(65px, 109px) rotate(-6deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation20 {
+  10% {transform: translate(2px, 28px) rotate(8deg) translateZ(0)}
+  30% {transform: translate(17px, 46px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {transform: translate(35px, 67px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(39px, 70px) rotate(1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(46px, 89px) rotate(5deg) translateZ(0) scale(.4)}
+  100% {transform: translate(67px, 106px) rotate(6deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation21 {
+  10% {transform: translate(-13px, 5px) rotate(-3deg) translateZ(0)}
+  30% {transform: translate(-32px, 27px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-51px, 40px) rotate(5deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-76px, 56px) rotate(-8deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-88px, 75px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-117px, 104px) rotate(-2deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation22 {
+  10% {transform: translate(-22px, 20px) rotate(-8deg) translateZ(0)}
+  30% {transform: translate(-40px, 43px) rotate(-8deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-54px, 65px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-82px, 68px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-101px, 78px) rotate(4deg) translateZ(0) scale(.4)}
+  100%{transform: translate(-106px, 101px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+ @keyframes animation23 {
+  10% {transform: translate(-3px, 15px) rotate(-4deg) translateZ(0)}
+  30% {transform: translate(-27px, 26px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-45px, 27px) rotate(2deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-56px, 30px) rotate(2deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-69px, 37px) rotate(3deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-69px, 62px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation24 {
+  10% {transform: translate(-23px, 17px) rotate(2deg) translateZ(0)}
+  30% {transform: translate(-49px, 40px) rotate(-10deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-61px, 64px) rotate(9deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-83px, 78px) rotate(-3deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-96px, 107px) rotate(-3deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-101px, 129px) rotate(-8deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation25 {
+  10% {transform: translate(-1px, 19px) rotate(-5deg) translateZ(0)}
+  30% {transform: translate(-22px, 37px) rotate(-6deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-26px, 54px) rotate(-4deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-51px, 67px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-58px, 92px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-68px, 108px) rotate(-2deg) translateZ(0) scale(.1)}
+  }
+ @keyframes animation26 {
+  10% {transform: translate(-0px, 15px) rotate(-5deg) translateZ(0)}
+  30% {transform: translate(-18px, 15px) rotate(9deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-26px, 22px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-36px, 39px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-40px, 50px) rotate(-3deg) translateZ(0) scale(.4)}
+  100%{transform: translate(-59px, 71px) rotate(-10deg) translateZ(0) scale(.1)}
+  }
+ @keyframes animation27 {
+  10% {transform: translate(-9px, 16px) rotate(9deg) translateZ(0)}
+  30% {transform: translate(-25px, 45px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-27px, 71px) rotate(-6deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-37px, 81px) rotate(-10deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-38px, 103px) rotate(3deg) translateZ(0) scale(.4)}
+  100%{transform: translate(-48px, 105px) rotate(-4deg) translateZ(0) scale(.1)}
+  }
+ @keyframes animation28 {
+  10% {transform: translate(-25px, 7px) rotate(7deg) translateZ(0)}
+  30% {transform: translate(-43px, 12px) rotate(-1deg) translateZ(0)}
+  40% {transform: translate(-51px, 19px) rotate(3deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-66px, 37px) rotate(-2deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-69px, 43px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-72px, 69px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation29 {
+  10% {transform: translate(-19px, 6px) rotate(0deg) translateZ(0)}
+  30% {transform: translate(-22px, 22px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-42px, 48px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-42px, 60px) rotate(9deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-54px, 73px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-68px, 81px) rotate(-6deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation30 {
+  10% {transform: translate(-9px, 26px) rotate(6deg) translateZ(0)}
+  30% {transform: translate(-10px, 33px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-32px, 56px) rotate(-10deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-51px, 58px) rotate(-5deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-62px, 82px) rotate(-6deg) translateZ(0) scale(.4)}
+  100%{transform: translate(-90px, 104px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation31 {
+  10% {transform: translate(-12px, -11px) rotate(-3deg) translateZ(0)}
+  30% {transform: translate(-28px, -40px) rotate(-9deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-37px, -69px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-63px, -77px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-84px, -79px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-109px, -85px) rotate(-4deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation32 {
+  10% {transform: translate(-10px, -26px) rotate(-2deg) translateZ(0)}
+  30% {transform: translate(-39px, -37px) rotate(-9deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-67px, -42px) rotate(7deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-71px, -71px) rotate(7deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-77px, -77px) rotate(5deg) translateZ(0) scale(.4)}
+  100%{transform: translate(-105px, -77px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation33 {
+  10% {transform: translate(-21px, -29px) rotate(7deg) translateZ(0)}
+  30% {transform: translate(-30px, -47px) rotate(-3deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-51px, -74px) rotate(1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-67px, -81px) rotate(2deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-96px, -85px) rotate(-4deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-107px, -108px) rotate(-2deg) translateZ(0) scale(.1)}
+   }
+@keyframes animation34 {
+  10% {transform: translate(-28px, -0px) rotate(8deg) translateZ(0)}
+  30% {transform: translate(-37px, -22px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-37px, -30px) rotate(-6deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-52px, -32px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-77px, -43px) rotate(-3deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-81px, -62px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation35 {
+  10% {transform: translate(-25px, -4px) rotate(1deg) translateZ(0)}
+  30% {transform: translate(-48px, -33px) rotate(5deg) translateZ(0) scale(.9)}
+  40% {transform: translate( -74px, -62px) rotate(-5deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-90px, -79px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-109px, -107px) rotate(1deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-116px, -126px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation36 {
+  10% {transform: translate(-8px, -4px) rotate(-3deg) translateZ(0)}
+  30% {transform: translate(-23px, -15px) rotate(-1deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-27px, -28px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-27px, -56px) rotate(-6deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-49px, -78px) rotate(9deg) translateZ(0) scale(.4)}
+  100%{transform: translate(-63px, -81px) rotate(-5deg) translateZ(0) scale(.1)}
+  }
+ @keyframes animation37 {
+  10% {transform: translate(-1px, -9px) rotate(2deg) translateZ(0)}
+  30% {transform: translate(-29px, -29px) rotate(-4deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-20px, -40px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-58px, -62px) rotate(-3deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-84px, -81px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-100px, -81px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation38 {
+  10% {transform: translate(-21px, -16px) rotate(-6deg) translateZ(0)}
+  30% {transform: translate(-27px, -20px) rotate(-10deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-43px, -20px) rotate(-5deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-52px, -38px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-73px, -58px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-81px, -68px) rotate(1deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation39 {
+  10% {transform: translate(-27px, -19px) rotate(-6deg) translateZ(0)}
+  30% {transform: translate(-40px, -46px) rotate(1deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-45px, -64px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-64px, -85px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-71px, -113px) rotate(-7deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-72px, -119px) rotate(-7deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation40 {
+  10% {transform: translate(-15px, -7px) rotate(6deg) translateZ(0)}
+  30% {transform: translate(-30px, -16px) rotate(6deg) translateZ(0) scale(.9)}
+  40% {transform: translate(-55px, -29px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {transform: translate(-76px, -38px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(-93px, -66px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {transform: translate(-122px, -83px) rotate(-4deg) translateZ(0) scale(.1)}
+  }
+  @keyframes animation41 {
+  10% {transform: translate(6px, -6px) rotate(5deg) translateZ(0)}
+  30% {transform: translate(21px, -23px) rotate(6deg) translateZ(0) scale(.9)}
+  40% {transform: translate(21px, -43px) rotate(-5deg) translateZ(0) scale(.8)}
+  60% {transform: translate(34px, -43px) rotate(7deg) translateZ(0) scale(.6)}
+  90% {transform: translate(58px, -61px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {transform: translate(63px, -88px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation42 {
+  10% {transform: translate(19px, -16px) rotate(-3deg) translateZ(0)}
+  30% {transform: translate(43px, -37px) rotate(7deg) translateZ(0) scale(.9)}
+  40% {transform: translate(65px, -57px) rotate(6deg) translateZ(0) scale(.8)}
+  60% {transform: translate(68px, -67px) rotate(3deg) translateZ(0) scale(.6)}
+  90% {transform: translate(75px, -79px) rotate(5deg) translateZ(0) scale(.4)}
+  100% {transform: translate(92px, -80px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation43 {
+  10% {transform: translate(29px, -26px) rotate(-7deg) translateZ(0)}
+  30% {transform: translate(36px, -40px) rotate(-3deg) translateZ(0) scale(.9)}
+  40% {transform: translate(53px, -52px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {transform: translate(54px, -57px) rotate(0deg) translateZ(0) scale(.6)}
+  90% {transform: translate(73px, -76px) rotate(-7deg) translateZ(0) scale(.4)}
+  100%{transform: translate(97px, -90px) rotate(-7deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation44 {
+  10% {transform: translate(28px, -18px) rotate(-10deg) translateZ(0)}
+  30% {transform: translate(56px, -39px) rotate(4deg) translateZ(0) scale(.9)}
+  40% {transform: translate(74px, -62px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {transform: translate(81px, -74px) rotate(-6deg) translateZ(0) scale(.6)}
+  90% {transform: translate(83px, -74px) rotate(-7deg) translateZ(0) scale(.4)}
+  100%{transform: translate(96px, -78px) rotate(4deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation45 {
+  10% {transform: translate(4px, -24px) rotate(2deg) translateZ(0)}
+  30% {transform: translate(15px, -40px) rotate(-4deg) translateZ(0) scale(.9)}
+  40% {transform: translate(15px, -63px) rotate(6deg) translateZ(0) scale(.8)}
+  60% {transform: translate(33px, -82px) rotate(-2deg) translateZ(0) scale(.6)}
+  90% {transform: translate(41px, -101px) rotate(8deg) translateZ(0) scale(.4)}
+  100%{transform: translate(67px, -115px) rotate(7deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation46 {
+  10% {transform: translate(11px, -7px) rotate(7deg) translateZ(0)}
+  30% {transform: translate(20px, -14px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {transform: translate(23px, -16px) rotate(-7deg) translateZ(0) scale(.8)}
+  60% {transform: translate(28px, -36px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(49px, -40px) rotate(2deg) translateZ(0) scale(.4)}
+  100% {transform: translate(62px, -41px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation47 {
+  10% {transform: translate(25px, -28px) rotate(-5deg) translateZ(0)}
+  30% {transform: translate(44px, -51px) rotate(-6deg) translateZ(0) scale(.9)}
+  40% {transform: translate(52px, -75px) rotate(7deg) translateZ(0) scale(.8)}
+  60% {transform: translate(56px, -92px) rotate(-6deg) translateZ(0) scale(.6)}
+  90% {transform: translate(82px, -113px) rotate(9deg) translateZ(0) scale(.4)}
+  100%{transform: translate(95px, -113px) rotate(-6deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation48 {
+  10% {transform: translate(16px, -22px) rotate(8deg) translateZ(0)}
+  30% {transform: translate(27px, -37px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {transform: translate(53px, -53px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {transform: translate(55px, -80px) rotate(-5deg) translateZ(0) scale(.6)}
+  90% {transform: translate(64px, -100px) rotate(8deg) translateZ(0) scale(.4)}
+  100%{transform: translate(64px, -107px) rotate(-8deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation49 {
+  10% {transform: translate(29px, -4px) rotate(1deg) translateZ(0)}
+  30% {transform: translate(35px, -26px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {transform: translate(48px, -35px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {transform: translate(68px, -51px) rotate(-7deg) translateZ(0) scale(.6)}
+  90% {transform: translate(92px, -63px) rotate(8deg) translateZ(0) scale(.4)}
+  100% {transform: translate(99px, -63px) rotate(3deg) translateZ(0) scale(.1)}
+  }
+@keyframes animation50 {
+  10% {transform: translate(1px, -15px) rotate(-3deg) translateZ(0)}
+  30% {transform: translate(26px, -35px) rotate(-3deg) translateZ(0) scale(.9)}
+  40% {transform: translate(33px, -40px) rotate(-4deg) translateZ(0) scale(.8)}
+  60% {transform: translate(57px, -53px) rotate(1deg) translateZ(0) scale(.6)}
+  90% {transform: translate(59px, -68px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {transform: translate(68px, -94px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+
+/*THIS IS FOR SAFARI*/
+@-webkit-keyframes animation0 {
+  10% {-webkit-transform: translate(4px, 27px) rotate(-19deg) translateZ(0)}
+  30% {-webkit-transform: translate(13px, 48px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(17px, 51px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(25px, 52px) rotate(-11deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(50px, 64px) rotate(19deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(65px, 87px) rotate(-6deg) translateZ(0) scale(.1)}
+}
+@-webkit-keyframes animation1 {
+  10% {-webkit-transform: translate(14px, 27px) rotate(-4deg) translateZ(0)}
+  30% {-webkit-transform: translate(27px, 52px) rotate(-5deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(56px, 75px) rotate(-2deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(79px, 88px) rotate(3deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(103px, 101px) rotate(6deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(113px, 120px) rotate(-3deg) translateZ(0) scale(.1)}
+}
+@-webkit-keyframes animation2 {
+  10% {-webkit-transform: translate(27px, 15px) rotate(0deg) translateZ(0)}
+  30% {-webkit-transform: translate(45px, 22px) rotate(-8deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(55px, 46px) rotate(-3deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(58px, 65px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(70px, 78px) rotate(7deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(89px, 81px) rotate(-8deg) translateZ(0) scale(.1)}
+}
+@-webkit-keyframes animation3 {
+  10% {-webkit-transform: translate(6px, 6px) rotate(-4deg) translateZ(0)}
+  30% {-webkit-transform: translate(27px, 25px) rotate(4deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(54px, 33px) rotate(-3deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(74px, 48px) rotate(0deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(91px, 76px) rotate(-9deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(96px, 98px) rotate(4deg) translateZ(0) scale(.1)}
+}
+@-webkit-keyframes animation4 {
+  10% {-webkit-transform: translate(27px, 19px) rotate(-10deg) translateZ(0)}
+  30% {-webkit-transform: translate(43px, 21px) rotate(7deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(55px, 36px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(55px, 59px) rotate(-7deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(60px, 64px) rotate(-2deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(75px, 70px) rotate(4deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation5 {
+  10% {-webkit-transform: translate(13px, 4px) rotate(-10deg) translateZ(0)}
+  30% {-webkit-transform: translate(22px, 12px) rotate(-3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(43px, 12px) rotate(6deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(62px, 16px) rotate(7deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(64px, 39px) rotate(6deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(67px, 42px) rotate(3deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation6 {
+  10% {-webkit-transform: translate(0px, 17px) rotate(-7deg) translateZ(0)}
+  30% {-webkit-transform: translate(19px, 30px) rotate(-6deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(32px, 39px) rotate(-2deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(33px, 43px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(43px, 45px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(55px, 64px) rotate(-10deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation7 {
+  10% {-webkit-transform: translate(16px, 0px) rotate(9deg) translateZ(0)}
+  30% {-webkit-transform: translate(23px, 29px) rotate(-8deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(34px, 53px) rotate(7deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(39px, 57px) rotate(-8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(48px, 77px) rotate(6deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(73px, 91px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation8 {
+  10% {-webkit-transform: translate(23px, 1px) rotate(-4deg) translateZ(0)}
+  30% {-webkit-transform: translate(32px, 14px) rotate(7deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(51px, 22px) rotate(-5deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(77px, 34px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(98px, 59px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(98px, 79px) rotate(-9deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation9 {
+  10% {-webkit-transform: translate(16px, 25px) rotate(-5deg) translateZ(0)}
+  30% {-webkit-transform: translate(32px, 45px) rotate(-1deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(56px, 50px) rotate(-9deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(80px, 50px) rotate(0deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(98px, 63px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(105px, 92px) rotate(7deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation10 {
+  10% {-webkit-transform: translate(27px, 16px) rotate(-10deg) translateZ(0)}
+  30% {-webkit-transform: translate(43px, 45px) rotate(-8deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(58px, 59px) rotate(7deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(70px, 80px) rotate(-4deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(74px, 93px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(87px, 114px) rotate(-9deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation11 {
+  10% {-webkit-transform: translate(18px, 23px) rotate(-1deg) translateZ(0)}
+  30% {-webkit-transform: translate(46px, 34px) rotate(-6deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(46px, 41px) rotate(1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(67px, 61px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(74px, 84px) rotate(-4deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(74px, 90px) rotate(9deg) translateZ(0)scale(.1)}
+  }
+@-webkit-keyframes animation12 {
+  10% {-webkit-transform: translate(18px, 3px) rotate(-10deg) translateZ(0)}
+  30% {-webkit-transform: translate(28px, 15px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(32px, 16px) rotate(-6deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(47px, 20px) rotate(-7deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(67px, 30px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(90px, 57px) rotate(2deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation13 {
+  10% {-webkit-transform: translate(20px, 8px) rotate(1deg) translateZ(0)}
+  30% {-webkit-transform: translate(44px, 9px) rotate(-2deg) translateZ(0)}
+  40% {-webkit-transform: translate(50px, 31px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(74px, 32px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(94px, 53px) rotate(4deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(95px, 66px) rotate(5deg) translateZ(0)scale(.1)}
+  }
+@-webkit-keyframes animation14 {
+  10% {-webkit-transform: translate(25px, 14px) rotate(-3deg) translateZ(0)}
+  30% {-webkit-transform: translate(40px, 28px) rotate(-1deg) translateZ(0)}
+  40% {-webkit-transform: translate(54px, 34px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(68px, 43px) rotate(-3deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(85px, 52px) rotate(4deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(114px, 67px) rotate(-5deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation15 {
+  10% {-webkit-transform: translate(25px, 24px) rotate(4deg) translateZ(0)}
+  30% {-webkit-transform: translate(32px, 27px) rotate(-2deg) translateZ(0)}
+  40% {-webkit-transform: translate(34px, 31px) rotate(-9deg) translateZ(0 scale(.8))}
+  60% {-webkit-transform: translate(55px, 42px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(73px, 59px) rotate(5deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(80px, 86px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation16 {
+  10% {-webkit-transform: translate(4px, 9px) rotate(5deg) translateZ(0)}
+  30% {-webkit-transform: translate(8px, 36px) rotate(0deg) translateZ(0)}
+  40% {-webkit-transform: translate(15px, 42px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(39px, 57px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(42px, 83px) rotate(6deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(71px, 106px) rotate(-1deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation17 {
+  10% {-webkit-transform: translate(24px, 29px) rotate(-1deg) translateZ(0)}
+  30% {-webkit-transform: translate(50px, 55px) rotate(-9deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(78px, 78px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(81px, 87px) rotate(5deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(94px, 101px) rotate(-2deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(97px, 113px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation18 {
+  10% {-webkit-transform: translate(8px, 1px) rotate(-6deg) translateZ(0)}
+  30% {-webkit-transform: translate(15px, 13px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(34px, 35px) rotate(6deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(57px, 36px) rotate(-4deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(67px, 54px) rotate(-4deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(92px, 58px) rotate(2deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation19 {
+  10% {-webkit-transform: translate(11px, 19px) rotate(6deg) translateZ(0)}
+  30% {-webkit-transform: translate(26px, 26px) rotate(-7deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(37px, 53px) rotate(-3deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(52px, 75px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(55px, 104px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(65px, 109px) rotate(-6deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation20 {
+  10% {-webkit-transform: translate(2px, 28px) rotate(8deg) translateZ(0)}
+  30% {-webkit-transform: translate(17px, 46px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(35px, 67px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(39px, 70px) rotate(1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(46px, 89px) rotate(5deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(67px, 106px) rotate(6deg) translateZ(0) scale(.1)}
+  }
+  @-webkit-keyframes animation21 {
+  10% {-webkit-transform: translate(-13px, 5px) rotate(-3deg) translateZ(0)}
+  30% {-webkit-transform: translate(-32px, 27px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-51px, 40px) rotate(5deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-76px, 56px) rotate(-8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-88px, 75px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-117px, 104px) rotate(-2deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation22 {
+  10% {-webkit-transform: translate(-22px, 20px) rotate(-8deg) translateZ(0)}
+  30% {-webkit-transform: translate(-40px, 43px) rotate(-8deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-54px, 65px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-82px, 68px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-101px, 78px) rotate(4deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-106px, 101px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation23 {
+  10% {-webkit-transform: translate(-3px, 15px) rotate(-4deg) translateZ(0)}
+  30% {-webkit-transform: translate(-27px, 26px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-45px, 27px) rotate(2deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-56px, 30px) rotate(2deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-69px, 37px) rotate(3deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-69px, 62px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation24 {
+  10% {-webkit-transform: translate(-23px, 17px) rotate(2deg) translateZ(0)}
+  30% {-webkit-transform: translate(-49px, 40px) rotate(-10deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-61px, 64px) rotate(9deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-83px, 78px) rotate(-3deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-96px, 107px) rotate(-3deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-101px, 129px) rotate(-8deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation25 {
+  10% {-webkit-transform: translate(-1px, 19px) rotate(-5deg) translateZ(0)}
+  30% {-webkit-transform: translate(-22px, 37px) rotate(-6deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-26px, 54px) rotate(-4deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-51px, 67px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-58px, 92px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-68px, 108px) rotate(-2deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation26 {
+  10% {-webkit-transform: translate(-0px, 15px) rotate(-5deg) translateZ(0)}
+  30% {-webkit-transform: translate(-18px, 15px) rotate(9deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-26px, 22px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-36px, 39px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-40px, 50px) rotate(-3deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-59px, 71px) rotate(-10deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation27 {
+  10% {-webkit-transform: translate(-9px, 16px) rotate(9deg) translateZ(0)}
+  30% {-webkit-transform: translate(-25px, 45px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-27px, 71px) rotate(-6deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-37px, 81px) rotate(-10deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-38px, 103px) rotate(3deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-48px, 105px) rotate(-4deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation28 {
+  10% {-webkit-transform: translate(-25px, 7px) rotate(7deg) translateZ(0)}
+  30% {-webkit-transform: translate(-43px, 12px) rotate(-1deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-51px, 19px) rotate(3deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-66px, 37px) rotate(-2deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-69px, 43px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-72px, 69px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation29 {
+  10% {-webkit-transform: translate(-19px, 6px) rotate(0deg) translateZ(0)}
+  30% {-webkit-transform: translate(-22px, 22px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-42px, 48px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-42px, 60px) rotate(9deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-54px, 73px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-68px, 81px) rotate(-6deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation30 {
+  10% {-webkit-transform: translate(-9px, 26px) rotate(6deg) translateZ(0)}
+  30% {-webkit-transform: translate(-10px, 33px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-32px, 56px) rotate(-10deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-51px, 58px) rotate(-5deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-62px, 82px) rotate(-6deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-90px, 104px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+  @-webkit-keyframes animation31 {
+  10% {-webkit-transform: translate(-12px, -11px) rotate(-3deg) translateZ(0)}
+  30% {-webkit-transform: translate(-28px, -40px) rotate(-9deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-37px, -69px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-63px, -77px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-84px, -79px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-109px, -85px) rotate(-4deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation32 {
+  10% {-webkit-transform: translate(-10px, -26px) rotate(-2deg) translateZ(0)}
+  30% {-webkit-transform: translate(-39px, -37px) rotate(-9deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-67px, -42px) rotate(7deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-71px, -71px) rotate(7deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-77px, -77px) rotate(5deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-105px, -77px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation33 {
+  10% {-webkit-transform: translate(-21px, -29px) rotate(7deg) translateZ(0)}
+  30% {-webkit-transform: translate(-30px, -47px) rotate(-3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-51px, -74px) rotate(1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-67px, -81px) rotate(2deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-96px, -85px) rotate(-4deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-107px, -108px) rotate(-2deg) translateZ(0) scale(.1))}
+  }
+@-webkit-keyframes animation34 {
+  10% {-webkit-transform: translate(-28px, -0px) rotate(8deg) translateZ(0)}
+  30% {-webkit-transform: translate(-37px, -22px) rotate(-2deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-37px, -30px) rotate(-6deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-52px, -32px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-77px, -43px) rotate(-3deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-81px, -62px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation35 {
+  10% {-webkit-transform: translate(-25px, -4px) rotate(1deg) translateZ(0)}
+  30% {-webkit-transform: translate(-48px, -33px) rotate(5deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-70px, -62px) rotate(-5deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-90px, -79px) rotate(8deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-109px, -107px) rotate(1deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-116px, -126px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation36 {
+  10% {-webkit-transform: translate(-8px, -4px) rotate(-3deg) translateZ(0)}
+  30% {-webkit-transform: translate(-23px, -15px) rotate(-1deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-27px, -28px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-27px, -56px) rotate(-6deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-49px, -78px) rotate(9deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-63px, -81px) rotate(-5deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation37 {
+  10% {-webkit-transform: translate(-1px, -9px) rotate(2deg) translateZ(0)}
+  30% {-webkit-transform: translate(-29px, -29px) rotate(-4deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-50px, -40px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-58px, -62px) rotate(-3deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-84px, -81px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-100px, -81px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation38 {
+  10% {-webkit-transform: translate(-21px, -16px) rotate(-6deg) translateZ(0)}
+  30% {-webkit-transform: translate(-27px, -20px) rotate(-10deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-43px, -20px) rotate(-5deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-52px, -38px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-73px, -58px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-81px, -68px) rotate(1deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation39 {
+  10% {-webkit-transform: translate(-27px, -19px) rotate(-6deg) translateZ(0)}
+  30% {-webkit-transform: translate(-40px, -46px) rotate(1deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-44px, -64px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-64px, -85px) rotate(-9deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-71px, -113px) rotate(-7deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-72px, -119px) rotate(-7deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation40 {
+  10% {-webkit-transform: translate(-15px, -7px) rotate(6deg) translateZ(0)}
+  30% {-webkit-transform: translate(-30px, -16px) rotate(6deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(-51px, -29px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(-76px, -38px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(-93px, -66px) rotate(-10deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(-122px, -83px) rotate(-4deg) translateZ(0) scale(.1)}
+  }
+  @-webkit-keyframes animation41 {
+  10% {-webkit-transform: translate(6px, -6px) rotate(5deg) translateZ(0)}
+  30% {-webkit-transform: translate(21px, -23px) rotate(6deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(21px, -43px) rotate(-5deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(34px, -43px) rotate(7deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(58px, -61px) rotate(0deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(63px, -88px) rotate(8deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation42 {
+  10% {-webkit-transform: translate(19px, -16px) rotate(-3deg) translateZ(0)}
+  30% {-webkit-transform: translate(43px, -37px) rotate(7deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(65px, -57px) rotate(6deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(68px, -67px) rotate(3deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(75px, -79px) rotate(5deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(92px, -80px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation43 {
+  10% {-webkit-transform: translate(29px, -26px) rotate(-7deg) translateZ(0)}
+  30% {-webkit-transform: translate(36px, -40px) rotate(-3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(53px, -52px) rotate(0deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(54px, -57px) rotate(0deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(73px, -76px) rotate(-7deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(97px, -90px) rotate(-7deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation44 {
+  10% {-webkit-transform: translate(28px, -18px) rotate(-10deg) translateZ(0)}
+  30% {-webkit-transform: translate(56px, -39px) rotate(4deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(74px, -62px) rotate(-1deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(81px, -74px) rotate(-6deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(83px, -74px) rotate(-7deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(96px, -78px) rotate(4deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation45 {
+  10% {-webkit-transform: translate(4px, -24px) rotate(2deg) translateZ(0)}
+  30% {-webkit-transform: translate(15px, -40px) rotate(-4deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(15px, -63px) rotate(6deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(33px, -82px) rotate(-2deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(41px, -101px) rotate(8deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(67px, -115px) rotate(7deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation46 {
+  10% {-webkit-transform: translate(11px, -7px) rotate(7deg) translateZ(0)}
+  30% {-webkit-transform: translate(20px, -14px) rotate(3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(23px, -16px) rotate(-7deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(28px, -36px) rotate(-1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(49px, -40px) rotate(2deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(62px, -41px) rotate(9deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation47 {
+  10% {-webkit-transform: translate(25px, -28px) rotate(-5deg) translateZ(0)}
+  30% {-webkit-transform: translate(44px, -51px) rotate(-6deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(52px, -75px) rotate(7deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(56px, -92px) rotate(-6deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(82px, -113px) rotate(9deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(95px, -113px) rotate(-6deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation48 {
+  10% {-webkit-transform: translate(16px, -22px) rotate(8deg) translateZ(0)}
+  30% {-webkit-transform: translate(27px, -37px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(53px, -53px) rotate(8deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(55px, -80px) rotate(-5deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(64px, -100px) rotate(8deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(64px, -107px) rotate(-8deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation49 {
+  10% {-webkit-transform: translate(29px, -4px) rotate(1deg) translateZ(0)}
+  30% {-webkit-transform: translate(35px, -26px) rotate(0deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(48px, -35px) rotate(4deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(68px, -51px) rotate(-7deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(92px, -63px) rotate(8deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(99px, -63px) rotate(3deg) translateZ(0) scale(.1)}
+  }
+@-webkit-keyframes animation50 {
+  10% {-webkit-transform: translate(1px, -15px) rotate(-3deg) translateZ(0)}
+  30% {-webkit-transform: translate(26px, -35px) rotate(-3deg) translateZ(0) scale(.9)}
+  40% {-webkit-transform: translate(33px, -40px) rotate(-4deg) translateZ(0) scale(.8)}
+  60% {-webkit-transform: translate(57px, -53px) rotate(1deg) translateZ(0) scale(.6)}
+  90% {-webkit-transform: translate(59px, -68px) rotate(-1deg) translateZ(0) scale(.4)}
+  100% {-webkit-transform: translate(68px, -94px) rotate(0deg) translateZ(0) scale(.1)}
+  }
+

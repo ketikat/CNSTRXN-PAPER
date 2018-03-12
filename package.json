@@ -10,6 +10,7 @@
   "author": "kat ballo",
   "license": "ISC",
   "dependencies": {
+    "anime": "^0.1.2",
     "babel-preset-env": "^1.6.1",
     "chalk": "^2.3.0",
     "express": "^4.16.2",

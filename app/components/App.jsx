@@ -36,6 +36,7 @@ class App extends Component {
 
     return (
       <div>
+      <p id="info">Hi There! You can use this to generate a custom SVG. Select from the colors below:</p>
           {/* NO OTHER HTML CAN GO INSIDE OF THE CANVAS */}
           <Canvas className="CanvasContainer"{ ...this.props }>
             <ColorNav className="ColorNavContainer" {...this.props } />

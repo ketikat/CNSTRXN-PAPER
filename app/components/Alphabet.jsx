@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Alphabet(color, movement, x, y, width, height, key) {
 
 
@@ -9,12 +10,22 @@ export default function Alphabet(color, movement, x, y, width, height, key) {
 
   function styleSelector() {
       const num = Math.floor(Math.random() * 50)
-      let animationName= `animation${num} 2s ease-in-out`
+      let animationName= `animation${num}`
+
 
       return (
-              { animation: animationName ,
+              {
+                animation: `${animationName}`,
+                animationDirection: 'alternate-reverse',
                 transformOrigin: '50% 50%',
-                animationDelay: '5ms'}
+                animationDelay: '5ms',
+                animationDuration: '.3s',
+                transformOrigin: '50% 50%',
+                animationDelay: '5ms',
+                animationTimingFunction: 'cubic-bezier(0.3,.5,0.58,1)',
+                animationIterationCount: '3',
+                WebkitAnimationName: `${animationName}`,
+              }
       )
   }
 
